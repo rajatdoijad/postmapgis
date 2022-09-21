@@ -1,2 +1,2 @@
-id,lat,lon,name,City_Name
-1,17.4796321,78.4173848,"KUKATPALLY"
+map_id,map_lat,map_lon,map_name,map_cityname
+1,17.4796321,78.4173848,"pune","KUKATPALLY"

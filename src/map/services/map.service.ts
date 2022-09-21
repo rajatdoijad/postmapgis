@@ -12,6 +12,9 @@ export class MapService {
     private readonly MapPostRepository: Repository<MapPostEntity>,
   ) {}
 
+  create(MapPost: MapPost) {
+    return this.MapPostRepository.save(MapPost);
+  }
   createPost(MapPost: MapPost): Observable<MapPost> {
     return from(this.MapPostRepository.save(MapPost));
   }
